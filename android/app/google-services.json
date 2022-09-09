@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "160164517005",
+    "firebase_url": "https://fixture2022-wcq-default-rtdb.firebaseio.com",
+    "project_id": "fixture2022-wcq",
+    "storage_bucket": "fixture2022-wcq.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160164517005:android:0fdc9170dddd5b4f8afec4",
+        "android_client_info": {
+          "package_name": "com.example.fixture2022"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160164517005-i1rmqoed9v1u7lm12kmursae81gn7roc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtVhHVipl1JFLhVhVRQNDZjAHEgcxoQJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160164517005-i1rmqoed9v1u7lm12kmursae81gn7roc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
