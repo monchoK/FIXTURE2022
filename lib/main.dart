@@ -8,7 +8,7 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  runApp(App());
+  runApp(const App());
 }
 
 class App extends StatelessWidget {
@@ -20,11 +20,11 @@ class App extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: "Fixture World Cup Qatar 2022",
         theme: ThemeData(
-          primaryColor: Color.fromARGB(160, 251, 176, 64),
-          cardColor: const Color.fromARGB(255, 137, 30, 53),
+          primaryColor: const Color.fromARGB(160, 251, 176, 64),
+          canvasColor: const Color.fromARGB(255, 137, 30, 53),
           secondaryHeaderColor: const Color.fromARGB(255, 251, 176, 64),
           backgroundColor: const Color.fromARGB(255, 31, 3, 9),
         ),
-        home: Mainscreen());
+        home: const Mainscreen());
   }
 }
