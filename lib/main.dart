@@ -20,11 +20,21 @@ class App extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: "Fixture World Cup Qatar 2022",
         theme: ThemeData(
-          primaryColor: const Color.fromARGB(160, 251, 176, 64),
-          canvasColor: const Color.fromARGB(255, 137, 30, 53),
-          secondaryHeaderColor: const Color.fromARGB(255, 251, 176, 64),
-          backgroundColor: const Color.fromARGB(255, 31, 3, 9),
-        ),
+            primaryColor: const Color.fromARGB(160, 251, 176, 64),
+            canvasColor: const Color.fromARGB(255, 137, 30, 53),
+            secondaryHeaderColor: const Color.fromARGB(255, 251, 176, 64),
+            backgroundColor: const Color.fromARGB(255, 31, 3, 9),
+            textTheme: const TextTheme(
+                headline1: TextStyle(
+                    fontSize: 23,
+                    color: Color.fromARGB(255, 31, 3, 9),
+                    fontStyle: FontStyle.normal,
+                    fontWeight: FontWeight.bold),
+                headline2: TextStyle(
+                    fontSize: 19,
+                    color: Color.fromARGB(255, 31, 3, 9),
+                    fontStyle: FontStyle.normal,
+                    fontWeight: FontWeight.bold))),
         home: const Mainscreen());
   }
 }

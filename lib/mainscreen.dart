@@ -1,12 +1,15 @@
 import 'package:fixture2022/buttons_and_widgets/buttons.dart';
 import 'package:flutter/material.dart';
 
+import 'buttons_and_widgets/drawer.dart';
+
 class Mainscreen extends StatelessWidget {
   const Mainscreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: drawer1(context),
       backgroundColor: Theme.of(context).backgroundColor,
       appBar: appBar1(context),
       body: body1(context),
@@ -16,6 +19,7 @@ class Mainscreen extends StatelessWidget {
 
 AppBar appBar1(BuildContext context) {
   return AppBar(
+    iconTheme: IconThemeData(color: Theme.of(context).secondaryHeaderColor),
     elevation: 0,
     backgroundColor: Theme.of(context).backgroundColor,
     title: Padding(
