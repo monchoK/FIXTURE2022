@@ -34,7 +34,12 @@ class App extends StatelessWidget {
                     fontSize: 19,
                     color: Color.fromARGB(255, 31, 3, 9),
                     fontStyle: FontStyle.normal,
-                    fontWeight: FontWeight.bold))),
+                    fontWeight: FontWeight.bold),
+                headline3: TextStyle(
+                  color: Color.fromARGB(255, 251, 176, 64),
+                  fontWeight: FontWeight.bold,
+                  fontSize: 27,
+                ))),
         home: const Mainscreen());
   }
 }

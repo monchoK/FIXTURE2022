@@ -26,11 +26,7 @@ AppBar appBar1(BuildContext context) {
       padding: const EdgeInsets.all(10),
       child: Text(
         "Qatar World Cup 2022",
-        style: TextStyle(
-          color: Theme.of(context).primaryColor,
-          fontWeight: FontWeight.bold,
-          fontSize: 27,
-        ),
+        style: Theme.of(context).textTheme.headline3,
       ),
     ),
   );

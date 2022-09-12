@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-class NewsScreen extends StatefulWidget {
-  const NewsScreen({Key? key}) : super(key: key);
+class RankingScreen extends StatefulWidget {
+  const RankingScreen({Key? key}) : super(key: key);
 
   @override
-  State<NewsScreen> createState() => _NewsScreenState();
+  State<RankingScreen> createState() => _RankingScreenState();
 }
 
-class _NewsScreenState extends State<NewsScreen> {
+class _RankingScreenState extends State<RankingScreen> {
   late WebViewController controller;
   @override
   Widget build(BuildContext context) {
@@ -18,13 +18,14 @@ class _NewsScreenState extends State<NewsScreen> {
         iconTheme: IconThemeData(color: Theme.of(context).secondaryHeaderColor),
         backgroundColor: Theme.of(context).backgroundColor,
         title: Text(
-          "Fifa News",
+          "Fifa Ranking",
           style: Theme.of(context).textTheme.headline3,
         ),
       ),
       body: WebView(
           javascriptMode: JavascriptMode.unrestricted,
-          initialUrl: "https://www.fifa.com/fifaplus/en/news",
+          initialUrl:
+              "https://www.fifa.com/es/fifa-world-ranking/men?dateId=id13750",
           onWebViewCreated: (controller) {
             this.controller = controller;
           }),

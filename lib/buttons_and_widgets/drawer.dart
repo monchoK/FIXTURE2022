@@ -1,3 +1,5 @@
+import 'package:fixture2022/buttons_and_widgets/news_screens.dart';
+import 'package:fixture2022/buttons_and_widgets/ranking_screen.dart';
 import 'package:flutter/material.dart';
 
 Drawer drawer1(BuildContext context) {
@@ -38,8 +40,10 @@ Drawer drawer1(BuildContext context) {
         Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            buttonsdrawer(context, Icons.newspaper, "Fifa News", null),
-            buttonsdrawer(context, Icons.sports_soccer, "Fifa Ranking", null),
+            buttonsdrawer(
+                context, Icons.newspaper, "Fifa News", const NewsScreen()),
+            buttonsdrawer(context, Icons.sports_soccer, "Fifa Ranking",
+                const RankingScreen()),
             const SizedBox(
               height: 80,
             ),
@@ -62,7 +66,9 @@ ListTile buttonsdrawer(BuildContext context, newicon, newtitle, ruta) {
         newtitle,
         style: Theme.of(context).textTheme.headline2,
       ),
-      onTap: ruta);
+      onTap: () {
+        Navigator.push(context, MaterialPageRoute(builder: (context) => ruta));
+      });
 }
 
 AboutListTile aboutListTile(BuildContext context) {
