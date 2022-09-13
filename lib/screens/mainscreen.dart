@@ -1,7 +1,8 @@
 import 'package:fixture2022/buttons_and_widgets/buttons.dart';
+import 'package:fixture2022/screens/groupStage_screen.dart';
 import 'package:flutter/material.dart';
 
-import 'buttons_and_widgets/drawer.dart';
+import '../buttons_and_widgets/drawer.dart';
 
 class Mainscreen extends StatelessWidget {
   const Mainscreen({Key? key}) : super(key: key);
@@ -11,25 +12,10 @@ class Mainscreen extends StatelessWidget {
     return Scaffold(
       drawer: drawer1(context),
       backgroundColor: Theme.of(context).backgroundColor,
-      appBar: appBar1(context),
+      appBar: appBar1(context, "Fifa Word Cup 2022"),
       body: body1(context),
     );
   }
-}
-
-AppBar appBar1(BuildContext context) {
-  return AppBar(
-    iconTheme: IconThemeData(color: Theme.of(context).secondaryHeaderColor),
-    elevation: 0,
-    backgroundColor: Theme.of(context).backgroundColor,
-    title: Padding(
-      padding: const EdgeInsets.all(10),
-      child: Text(
-        "Qatar World Cup 2022",
-        style: Theme.of(context).textTheme.headline3,
-      ),
-    ),
-  );
 }
 
 Container body1(BuildContext context) {
@@ -46,7 +32,7 @@ Container body1(BuildContext context) {
     child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
       Flexible(
         flex: 2,
-        child: buttonMainScreen(context, " Group Stage", null),
+        child: buttonMainScreen(context, " Group Stage", GroupStage()),
       ),
       Flexible(flex: 4, child: Image.asset("assets/Laeeb.png")),
       Flexible(
