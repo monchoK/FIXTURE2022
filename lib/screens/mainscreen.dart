@@ -32,7 +32,7 @@ Container body1(BuildContext context) {
     child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
       Flexible(
         flex: 2,
-        child: buttonMainScreen(context, " Group Stage", GroupStage()),
+        child: buttonMainScreen(context, " Group Stage", const GroupStage()),
       ),
       Flexible(flex: 4, child: Image.asset("assets/Laeeb.png")),
       Flexible(

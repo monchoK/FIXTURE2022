@@ -11,7 +11,7 @@ class GroupStage extends StatefulWidget {
 }
 
 class _GroupStageState extends State<GroupStage> {
-  Query dbRef = FirebaseDatabase.instance.ref().child("/Countries");
+  Query dbRef = FirebaseDatabase.instance.ref().child("/Mundial/Grupo C");
   Widget listItem({required Map equipos}) {
     return Container(
       margin: const EdgeInsets.all(10),
@@ -22,50 +22,49 @@ class _GroupStageState extends State<GroupStage> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(
-            equipos["ISO3"],
-            style: TextStyle(fontWeight: FontWeight.bold),
+            equipos["ISO3"].toString(),
+            style: const TextStyle(fontWeight: FontWeight.bold),
           ),
           const SizedBox(width: 17),
           Text(
-            equipos["Partidos_Jugados"].toString(),
-            style: TextStyle(fontWeight: FontWeight.bold),
+            equipos["PJ"].toString(),
+            style: const TextStyle(fontWeight: FontWeight.bold),
           ),
           const SizedBox(width: 17),
           Text(
-            equipos["Ganados"].toString(),
-            style: TextStyle(fontWeight: FontWeight.bold),
+            equipos["G"].toString(),
+            style: const TextStyle(fontWeight: FontWeight.bold),
           ),
           const SizedBox(width: 17),
           Text(
-            equipos["Empatados"].toString(),
-            style: TextStyle(fontWeight: FontWeight.bold),
+            equipos["E"].toString(),
+            style: const TextStyle(fontWeight: FontWeight.bold),
           ),
           const SizedBox(width: 17),
           Text(
-            equipos["Perdidos"].toString(),
-            style: TextStyle(fontWeight: FontWeight.bold),
+            equipos["P"].toString(),
+            style: const TextStyle(fontWeight: FontWeight.bold),
           ),
           const SizedBox(width: 17),
           Text(
-            equipos["Goles_a_favor"].toString(),
-            style: TextStyle(fontWeight: FontWeight.bold),
+            equipos["GF"].toString(),
+            style: const TextStyle(fontWeight: FontWeight.bold),
           ),
           const SizedBox(width: 17),
           Text(
-            equipos["Goles_en_contra"].toString(),
-            style: TextStyle(fontWeight: FontWeight.bold),
+            equipos["GC"].toString(),
+            style: const TextStyle(fontWeight: FontWeight.bold),
           ),
           const SizedBox(width: 17),
           Text(
-            equipos["Diferencias_de_goles"].toString(),
-            style: TextStyle(fontWeight: FontWeight.bold),
+            equipos["DG"].toString(),
+            style: const TextStyle(fontWeight: FontWeight.bold),
           ),
           const SizedBox(width: 17),
           Text(
-            equipos["Puntos"].toString(),
-            style: TextStyle(fontWeight: FontWeight.bold),
+            equipos["PTS"].toString(),
+            style: const TextStyle(fontWeight: FontWeight.bold),
           ),
-          const SizedBox(width: 17),
         ],
       ),
     );
@@ -75,13 +74,14 @@ class _GroupStageState extends State<GroupStage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: appBar1(context, "Group Stage"),
-      body: Container(
+      body: SizedBox(
         height: double.infinity,
         child: FirebaseAnimatedList(
             query: dbRef,
             itemBuilder: (BuildContext context, DataSnapshot snapshot,
                 Animation<double> animation, int index) {
-              Map equipos = snapshot.value as Map;
+              Map<dynamic, dynamic> equipos =
+                  snapshot.value as Map<dynamic, dynamic>;
               equipos["key"] = snapshot.key;
 
               return listItem(equipos: equipos);
