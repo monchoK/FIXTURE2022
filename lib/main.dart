@@ -1,7 +1,7 @@
 import 'package:fixture2022/screens/mainscreen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'firebase_options.dart';
+import 'database/firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,6 +24,7 @@ class App extends StatelessWidget {
             canvasColor: const Color.fromARGB(255, 137, 30, 53),
             secondaryHeaderColor: const Color.fromARGB(255, 251, 176, 64),
             backgroundColor: const Color.fromARGB(255, 31, 3, 9),
+            cardColor: Colors.grey,
             textTheme: const TextTheme(
                 headline1: TextStyle(
                     fontSize: 23,
@@ -39,6 +40,10 @@ class App extends StatelessWidget {
                   color: Color.fromARGB(255, 251, 176, 64),
                   fontWeight: FontWeight.bold,
                   fontSize: 27,
+                ),
+                headline4: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold,
                 ))),
         home: const Mainscreen());
   }

@@ -1,5 +1,4 @@
-import 'package:fixture2022/buttons_and_widgets/news_screens.dart';
-import 'package:fixture2022/buttons_and_widgets/ranking_screen.dart';
+import 'package:fixture2022/screens/fifa_screens.dart';
 import 'package:flutter/material.dart';
 
 Drawer drawer1(BuildContext context) {
