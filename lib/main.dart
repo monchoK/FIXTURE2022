@@ -24,7 +24,7 @@ class App extends StatelessWidget {
             canvasColor: const Color.fromARGB(255, 137, 30, 53),
             secondaryHeaderColor: const Color.fromARGB(255, 251, 176, 64),
             backgroundColor: const Color.fromARGB(255, 31, 3, 9),
-            cardColor: Colors.grey,
+            cardColor: Colors.grey.shade400,
             textTheme: const TextTheme(
                 headline1: TextStyle(
                     fontSize: 23,

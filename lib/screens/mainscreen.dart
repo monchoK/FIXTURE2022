@@ -1,3 +1,4 @@
+import 'package:fixture2022/screens/playoff_screen.dart';
 import 'package:fixture2022/widgets/widgets.dart';
 import 'package:fixture2022/screens/groupstage_screen.dart';
 import 'package:flutter/material.dart';
@@ -33,7 +34,9 @@ Container body1(BuildContext context) {
           flex: 2,
           child: buttonMainScreen(context, " Group Stage", const GroupStage())),
       Flexible(flex: 4, child: Image.asset("assets/Laeeb.png")),
-      Flexible(flex: 2, child: buttonMainScreen(context, "Play Off", null))
+      Flexible(
+          flex: 2,
+          child: buttonMainScreen(context, "Play Off", const PlayOff()))
     ]),
   );
 }

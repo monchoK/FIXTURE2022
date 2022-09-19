@@ -48,7 +48,7 @@ Drawer drawer1(BuildContext context) {
             ),
             Image.asset("assets/laeeb2.png"),
             const SizedBox(
-              height: 135,
+              height: 65,
             ),
             aboutListTile(context)
           ],

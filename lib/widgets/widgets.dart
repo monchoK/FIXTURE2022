@@ -31,47 +31,17 @@ AppBar appBar1(BuildContext context, title) {
 SizedBox dataCards(BuildContext context) {
   return SizedBox(
       height: 30,
-      child: Row(
-          mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            SizedBox(
-                width: 50,
-                child: Text("  NAME",
-                    style: Theme.of(context).textTheme.headline4)),
-            SizedBox(
-                width: 50,
-                child: Text("        PJ",
-                    style: Theme.of(context).textTheme.headline4)),
-            SizedBox(
-                width: 35,
-                child: Text("    G",
-                    style: Theme.of(context).textTheme.headline4)),
-            SizedBox(
-                width: 35,
-                child: Text("    E",
-                    style: Theme.of(context).textTheme.headline4)),
-            SizedBox(
-                width: 35,
-                child: Text("    P",
-                    style: Theme.of(context).textTheme.headline4)),
-            SizedBox(
-                width: 35,
-                child: Text("    GF",
-                    style: Theme.of(context).textTheme.headline4)),
-            SizedBox(
-                width: 35,
-                child: Text("    GC",
-                    style: Theme.of(context).textTheme.headline4)),
-            SizedBox(
-                width: 35,
-                child: Text("    DG",
-                    style: Theme.of(context).textTheme.headline4)),
-            SizedBox(
-                width: 35,
-                child: Text("   Pts",
-                    style: Theme.of(context).textTheme.headline4))
-          ]));
+      child: Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: [
+        Text("NAME", style: Theme.of(context).textTheme.headline4),
+        Text(" Pj", style: Theme.of(context).textTheme.headline4),
+        Text("G", style: Theme.of(context).textTheme.headline4),
+        Text("  E", style: Theme.of(context).textTheme.headline4),
+        Text("   P", style: Theme.of(context).textTheme.headline4),
+        Text("Gf", style: Theme.of(context).textTheme.headline4),
+        Text("Gc", style: Theme.of(context).textTheme.headline4),
+        Text("Dg", style: Theme.of(context).textTheme.headline4),
+        Text("Pts", style: Theme.of(context).textTheme.headline4)
+      ]));
 }
 
 Divider divider() {
