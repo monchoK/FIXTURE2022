@@ -13,7 +13,7 @@ class GroupStage extends StatefulWidget {
 
 class _GroupStageState extends State<GroupStage> {
   Card groupStage(BuildContext context, groupName, equip1Ref, equip2Ref,
-      equip3Ref, equip4Ref) {
+      equip3Ref, equip4Ref, flag1, flag2, flag3, flag4) {
     return Card(
         margin: const EdgeInsets.all(20),
         elevation: 10,
@@ -33,17 +33,17 @@ class _GroupStageState extends State<GroupStage> {
                   divider(),
                   dataCards(context),
                   divider(),
-                  firebaseAnimatedList(equip1Ref),
+                  firebaseAnimatedList(equip1Ref, flag1),
                   divider(),
-                  firebaseAnimatedList(equip2Ref),
+                  firebaseAnimatedList(equip2Ref, flag2),
                   divider(),
-                  firebaseAnimatedList(equip3Ref),
+                  firebaseAnimatedList(equip3Ref, flag3),
                   divider(),
-                  firebaseAnimatedList(equip4Ref)
+                  firebaseAnimatedList(equip4Ref, flag4)
                 ])));
   }
 
-  FirebaseAnimatedList firebaseAnimatedList(dbReferencia) {
+  FirebaseAnimatedList firebaseAnimatedList(dbReferencia, flag) {
     return FirebaseAnimatedList(
         shrinkWrap: true,
         query: dbReferencia,
@@ -51,17 +51,25 @@ class _GroupStageState extends State<GroupStage> {
             Animation<double> animation, int index) {
           Map equipoReferencia = snapshot.value as Map;
           equipoReferencia["key"] = snapshot.key;
-          return listItem(equipoReferencia, context);
+
+          return listItem(equipoReferencia, context, flag);
         });
   }
 
-  Widget listItem(equipo, context) {
+  Widget listItem(equipo, context, flag) {
     return Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         mainAxisSize: MainAxisSize.max,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Text(equipo["ISO3"], style: Theme.of(context).textTheme.headline4),
+          Row(mainAxisAlignment: MainAxisAlignment.start, children: [
+            SizedBox(
+              height: 30,
+              width: 30,
+              child: Image.asset(flag),
+            ),
+            Text(equipo["ISO3"], style: Theme.of(context).textTheme.headline4),
+          ]),
           Text(equipo["PJ"].toString(),
               style: Theme.of(context).textTheme.headline4),
           Text(equipo["G"].toString(),
@@ -99,21 +107,21 @@ class _GroupStageState extends State<GroupStage> {
                 scrollDirection: Axis.vertical,
                 children: [
                   groupStage(context, "Group A", dbRefQAT, dbRefECU, dbRefSEN,
-                      dbRefNED),
+                      dbRefNED, flags[26], flags[12], flags[27], flags[23]),
                   groupStage(context, "Group B", dbRefENG, dbRefIRN, dbRefUSA,
-                      dbRefWAL),
+                      dbRefWAL, flags[18], flags[19], flags[14], flags[16]),
                   groupStage(context, "Group C", dbRefARG, dbRefKSA, dbRefMEX,
-                      dbRefPOL),
+                      dbRefPOL, flags[2], flags[1], flags[22], flags[24]),
                   groupStage(context, "Group D", dbRefFRA, dbRefAUS, dbRefDIN,
-                      dbRefTUN),
+                      dbRefTUN, flags[15], flags[3], flags[11], flags[30]),
                   groupStage(context, "Group E", dbRefESP, dbRefCRC, dbRefGER,
-                      dbRefJPN),
+                      dbRefJPN, flags[13], flags[9], flags[0], flags[20]),
                   groupStage(context, "Group F", dbRefBEL, dbRefCAN, dbRefMAR,
-                      dbRefCRO),
+                      dbRefCRO, flags[4], flags[7], flags[21], flags[10]),
                   groupStage(context, "Group G", dbRefBRA, dbRefSER, dbRefSUI,
-                      dbRefCAM),
+                      dbRefCAM, flags[5], flags[28], flags[29], flags[6]),
                   groupStage(context, "Group H", dbRefPOR, dbRefGHA, dbRefURU,
-                      dbRefKOR)
+                      dbRefKOR, flags[25], flags[17], flags[31], flags[8])
                 ])));
   }
 }

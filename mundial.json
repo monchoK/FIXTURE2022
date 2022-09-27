@@ -1,0 +1,452 @@
+{
+    "Mundial": {
+        "ECUADOR": {
+            "DATOS": {
+                "DG": "0",
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "ECU",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name ": "Ecuador"
+            }
+        },
+        "HOLANDA": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "NED",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Holanda"
+            }
+        },
+        "QATAR": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "QAT",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Qatar"
+            }
+        },
+        "SENEGAL": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "SEN",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Senegal"
+            }
+        },
+        "ESTADOS_UNIDOS": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "USA",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Estados Unidos"
+            }
+        },
+        "GALES": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "WAL",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Gales"
+            }
+        },
+        "INGLATERRA": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "END",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Inglaterra"
+            }
+        },
+        "IRAN": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "IRN",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Iran"
+            }
+        },
+        "ARABIA_SAUDI": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "KSA",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Arabia Saudi"
+            }
+        },
+        "ARGENTINA": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "ARG",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Argentina"
+            }
+        },
+        "MEXICO": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "MEX",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Mexico"
+            }
+        },
+        "POLONIA": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "POL",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Polonia"
+            }
+        },
+        "AUSTRALIA": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "AUS",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Australia"
+            }
+        },
+        "DINAMARCA": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "DIN",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Dinamarca"
+            }
+        },
+        "FRANCIA": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "FRA",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Francia"
+            }
+        },
+        "TUNEZ": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "TUN",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Tunez"
+            }
+        },
+        "ALEMANIA": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "GER",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Alemania"
+            }
+        },
+        "COSTA_RICA": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "CRC",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Costa Rica"
+            }
+        },
+        "ESPAÑA": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "ESP",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "España"
+            }
+        },
+        "JAPON": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "JPN",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Japon"
+            }
+        },
+        "BELGICA": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "BEL",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Belgica"
+            }
+        },
+        "CANADA": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "CAN",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Canada"
+            }
+        },
+        "CROACIA": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "CRO",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Croacia"
+            }
+        },
+        "MARRUECOS": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "MAR",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Marruecos"
+            }
+        },
+        "BRASIL": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "BRA",
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Brasil",
+                "P": 0
+            }
+        },
+        "CAMERUN": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "CAM",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Camerun"
+            }
+        },
+        "SERBIA": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "SER",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Serbia"
+            }
+        },
+        "SUIZA": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "SUI",
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Suiza",
+                "P": 0
+            }
+        },
+        "COREA_DEL_SUR": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "KOR",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Corea Del Sur"
+            }
+        },
+        "GHANA": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "GHA",
+                "P": 0,
+                "PJ": 0,
+                "name": "Ghana",
+                "PTS": 0
+            }
+        },
+        "PORTUGAL": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "POR",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Portugal"
+            }
+        },
+        "URUGUAY": {
+            "DATOS": {
+                "DG": 0,
+                "E": 0,
+                "G": 0,
+                "GC": 0,
+                "GF": 0,
+                "ISO3": "URU",
+                "P": 0,
+                "PJ": 0,
+                "PTS": 0,
+                "name": "Uruguay"
+            }
+        }
+    }
+}

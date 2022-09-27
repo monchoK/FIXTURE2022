@@ -32,10 +32,10 @@ SizedBox dataCards(BuildContext context) {
   return SizedBox(
       height: 30,
       child: Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: [
-        Text("NAME", style: Theme.of(context).textTheme.headline4),
+        Text("  NAME    ", style: Theme.of(context).textTheme.headline4),
         Text(" Pj", style: Theme.of(context).textTheme.headline4),
-        Text("G", style: Theme.of(context).textTheme.headline4),
-        Text("  E", style: Theme.of(context).textTheme.headline4),
+        Text(" G", style: Theme.of(context).textTheme.headline4),
+        Text("   E", style: Theme.of(context).textTheme.headline4),
         Text("   P", style: Theme.of(context).textTheme.headline4),
         Text("Gf", style: Theme.of(context).textTheme.headline4),
         Text("Gc", style: Theme.of(context).textTheme.headline4),
