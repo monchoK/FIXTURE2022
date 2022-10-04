@@ -44,7 +44,8 @@ class PlayOffState extends State<PlayOff> {
               context,
               "Final",
               cardff(context, "assets/escudo.png", "Por definirse", "", "18/12",
-                  "12:00")),
+                  "12:00"),
+              "Por definirse"),
           semifinal(
               context,
               "Semifinal lado B",
