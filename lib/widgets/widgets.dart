@@ -48,3 +48,14 @@ Divider divider() {
   return const Divider(
       color: Colors.black, thickness: 3, indent: 10, endIndent: 10, height: 4);
 }
+
+BoxDecoration degrade(BuildContext context) {
+  return BoxDecoration(
+      gradient: LinearGradient(
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+          colors: [
+        Theme.of(context).backgroundColor,
+        Theme.of(context).canvasColor
+      ]));
+}

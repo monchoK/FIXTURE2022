@@ -63,11 +63,7 @@ class _GroupStageState extends State<GroupStage> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Row(mainAxisAlignment: MainAxisAlignment.start, children: [
-            SizedBox(
-              height: 30,
-              width: 30,
-              child: Image.asset(flag),
-            ),
+            SizedBox(height: 30, width: 30, child: Image.asset(flag)),
             Text(equipo["ISO3"], style: Theme.of(context).textTheme.headline4),
           ]),
           Text(equipo["PJ"].toString(),
