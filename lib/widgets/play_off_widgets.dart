@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:fixture2022/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 

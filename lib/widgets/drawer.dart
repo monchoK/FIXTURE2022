@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:fixture2022/screens/fifa_screens.dart';
 import 'package:flutter/material.dart';
 
