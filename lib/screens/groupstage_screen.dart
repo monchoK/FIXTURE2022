@@ -95,7 +95,7 @@ class _GroupStageState extends State<GroupStage> {
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                     colors: [
-                  Theme.of(context).backgroundColor,
+                  const Color.fromARGB(255, 31, 3, 9),
                   Theme.of(context).canvasColor
                 ])),
             child: ListView(

@@ -17,7 +17,7 @@ class _NewsScreenState extends State<NewsScreen> {
             centerTitle: true,
             iconTheme:
                 IconThemeData(color: Theme.of(context).secondaryHeaderColor),
-            backgroundColor: Theme.of(context).backgroundColor,
+            backgroundColor: const Color.fromARGB(255, 31, 3, 9),
             title: Text("Fifa News",
                 style: Theme.of(context).textTheme.headline3)),
         body: WebView(
@@ -45,7 +45,7 @@ class _RankingScreenState extends State<RankingScreen> {
             centerTitle: true,
             iconTheme:
                 IconThemeData(color: Theme.of(context).secondaryHeaderColor),
-            backgroundColor: Theme.of(context).backgroundColor,
+            backgroundColor: const Color.fromARGB(255, 31, 3, 9),
             title: Text("Fifa Ranking",
                 style: Theme.of(context).textTheme.headline3)),
         body: WebView(

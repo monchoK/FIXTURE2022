@@ -14,7 +14,7 @@ class PlayOffState extends State<PlayOff> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Theme.of(context).backgroundColor,
+        backgroundColor: const Color.fromARGB(255, 31, 3, 9),
         appBar: appBar1(context, "Play Off"),
         body: ListView(scrollDirection: Axis.horizontal, children: [
           octavos(

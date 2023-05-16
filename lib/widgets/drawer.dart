@@ -16,7 +16,7 @@ Drawer drawer1(BuildContext context) {
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
-                Theme.of(context).backgroundColor,
+                const Color.fromARGB(255, 31, 3, 9),
                 Theme.of(context).canvasColor,
               ])),
           child: Row(children: [
@@ -24,7 +24,7 @@ Drawer drawer1(BuildContext context) {
               flex: 1,
               child: Image.asset(
                 "assets/logo_qatar.png",
-                color: Theme.of(context).backgroundColor,
+                color: const Color.fromARGB(255, 31, 3, 9),
               ),
             ),
             Flexible(

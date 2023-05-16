@@ -38,7 +38,7 @@ Card cardff(BuildContext context, bandera, equipo, resultado, fecha, hora) {
 Container octavos(BuildContext context, name, oct1, oct2, oct3, oct4) {
   return Container(
       width: 400,
-      color: Theme.of(context).backgroundColor,
+      color: const Color.fromARGB(255, 31, 3, 9),
       child: Column(mainAxisAlignment: MainAxisAlignment.start, children: [
         SizedBox(
           width: 400,
@@ -66,7 +66,7 @@ Container octavos(BuildContext context, name, oct1, oct2, oct3, oct4) {
 Container cuartos(BuildContext context, name, cua1, cua2) {
   return Container(
       width: 400,
-      color: Theme.of(context).backgroundColor,
+      color: const Color.fromARGB(255, 31, 3, 9),
       child: Column(mainAxisAlignment: MainAxisAlignment.start, children: [
         SizedBox(
             height: 40,
@@ -97,7 +97,7 @@ Container cuartos(BuildContext context, name, cua1, cua2) {
 Container semifinal(BuildContext context, name, sem1) {
   return Container(
       width: 400,
-      color: Theme.of(context).backgroundColor,
+      color: const Color.fromARGB(255, 31, 3, 9),
       child: Column(mainAxisAlignment: MainAxisAlignment.start, children: [
         SizedBox(
             width: 400,
@@ -128,7 +128,7 @@ Container semifinal(BuildContext context, name, sem1) {
 Container finals(BuildContext context, name, finalists, ganador) {
   return Container(
       width: 400,
-      color: Theme.of(context).backgroundColor,
+      color: const Color.fromARGB(255, 31, 3, 9),
       child: Column(mainAxisAlignment: MainAxisAlignment.start, children: [
         SizedBox(
             height: 40,

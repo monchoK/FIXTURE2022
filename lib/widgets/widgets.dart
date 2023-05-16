@@ -22,7 +22,7 @@ AppBar appBar1(BuildContext context, title) {
   return AppBar(
       iconTheme: IconThemeData(color: Theme.of(context).secondaryHeaderColor),
       elevation: 0,
-      backgroundColor: Theme.of(context).backgroundColor,
+      backgroundColor: const Color.fromARGB(255, 31, 3, 9),
       title: Padding(
           padding: const EdgeInsets.all(10),
           child: Text(title, style: Theme.of(context).textTheme.headline3)));
@@ -55,7 +55,7 @@ BoxDecoration degrade(BuildContext context) {
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
           colors: [
-        Theme.of(context).backgroundColor,
+        const Color.fromARGB(255, 31, 3, 9),
         Theme.of(context).canvasColor
       ]));
 }

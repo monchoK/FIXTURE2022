@@ -12,8 +12,8 @@ class Mainscreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         drawer: drawer1(context),
-        backgroundColor: Theme.of(context).backgroundColor,
-        appBar: appBar1(context, "Fifa Word Cup 2022"),
+        backgroundColor: const Color.fromARGB(255, 31, 3, 9),
+        appBar: appBar1(context, "Fifa World Cup 2022"),
         body: body1(context));
   }
 }
@@ -26,7 +26,7 @@ Container body1(BuildContext context) {
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
             colors: [
-          Theme.of(context).backgroundColor,
+          const Color.fromARGB(255, 31, 3, 9),
           Theme.of(context).canvasColor
         ])),
     child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
