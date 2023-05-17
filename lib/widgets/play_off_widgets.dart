@@ -50,14 +50,15 @@ Container octavos(BuildContext context, name, oct1, oct2, oct3, oct4) {
               child: Text(name, style: Theme.of(context).textTheme.headline3)),
         ),
         Container(
-            height: 620,
-            width: 400,
+            height: 552,
+            width: 420,
             decoration: degrade(context),
             child: Stack(alignment: Alignment.center, children: [
               Image.asset(
                 height: 620,
+                width: 420,
                 "assets/patron.png",
-                fit: BoxFit.fitHeight,
+                fit: BoxFit.fill,
               ),
               Column(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -78,7 +79,7 @@ Container cuartos(BuildContext context, name, cua1, cua2) {
                 child:
                     Text(name, style: Theme.of(context).textTheme.headline3))),
         Container(
-            height: 620,
+            height: 552,
             width: 400,
             decoration: degrade(context),
             child: Stack(
@@ -87,7 +88,7 @@ Container cuartos(BuildContext context, name, cua1, cua2) {
                 Image.asset(
                   height: 620,
                   "assets/patron.png",
-                  fit: BoxFit.fitHeight,
+                  fit: BoxFit.fill,
                 ),
                 Column(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -109,7 +110,7 @@ Container semifinal(BuildContext context, name, sem1) {
                 child:
                     Text(name, style: Theme.of(context).textTheme.headline3))),
         Container(
-            height: 620,
+            height: 552,
             width: 400,
             decoration: degrade(context),
             child: Stack(
@@ -118,7 +119,7 @@ Container semifinal(BuildContext context, name, sem1) {
                 Image.asset(
                   height: 620,
                   "assets/patron.png",
-                  fit: BoxFit.fitHeight,
+                  fit: BoxFit.fill,
                 ),
                 Column(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -140,8 +141,8 @@ Container finals(BuildContext context, name, finalists, ganador) {
                 child:
                     Text(name, style: Theme.of(context).textTheme.headline3))),
         Container(
-            height: 620,
-            width: 400,
+            height: 552,
+            width: 420,
             decoration: degrade(context),
             child: Stack(
               alignment: Alignment.center,
