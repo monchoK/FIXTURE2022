@@ -11,7 +11,6 @@ class NewsScreen extends StatefulWidget {
 }
 
 class _NewsScreenState extends State<NewsScreen> {
-  @override
   WebViewController controller = WebViewController()
     ..setJavaScriptMode(JavaScriptMode.unrestricted)
     ..setBackgroundColor(const Color(0x00000000))
@@ -32,6 +31,7 @@ class _NewsScreenState extends State<NewsScreen> {
       ),
     )
     ..loadRequest(Uri.parse('https://www.fifa.com/fifaplus/en/news'));
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
@@ -55,7 +55,6 @@ class RankingScreen extends StatefulWidget {
 }
 
 class _RankingScreenState extends State<RankingScreen> {
-  @override
   WebViewController controller = WebViewController()
     ..setJavaScriptMode(JavaScriptMode.unrestricted)
     ..setBackgroundColor(const Color(0x00000000))
@@ -78,6 +77,7 @@ class _RankingScreenState extends State<RankingScreen> {
     )
     ..loadRequest(Uri.parse(
         'https://www.fifa.com/es/fifa-world-ranking/men?dateId=id13750'));
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
