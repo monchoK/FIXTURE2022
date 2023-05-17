@@ -109,17 +109,17 @@ class _GroupStageState extends State<GroupStage> {
                   groupStage(context, "Group B", dbRefENG, dbRefUSA, dbRefIRN,
                       dbRefWAL, flags[18], flags[14], flags[19], flags[16]),
                   groupStage(context, "Group C", dbRefARG, dbRefPOL, dbRefMEX,
-                      dbRefKSA, flags[2], flags[1], flags[24], flags[22]),
+                      dbRefKSA, flags[2], flags[24], flags[22], flags[1]),
                   groupStage(context, "Group D", dbRefFRA, dbRefAUS, dbRefTUN,
                       dbRefDIN, flags[15], flags[3], flags[30], flags[11]),
                   groupStage(context, "Group E", dbRefJPN, dbRefESP, dbRefGER,
-                      dbRefCRC, flags[20], flags[9], flags[13], flags[0]),
+                      dbRefCRC, flags[20], flags[13], flags[0], flags[9]),
                   groupStage(context, "Group F", dbRefMAR, dbRefCRO, dbRefBEL,
                       dbRefCAN, flags[21], flags[10], flags[4], flags[7]),
                   groupStage(context, "Group G", dbRefBRA, dbRefSUI, dbRefCAM,
                       dbRefSER, flags[5], flags[29], flags[6], flags[28]),
-                  groupStage(context, "Group H", dbRefPOR, dbRefKOR, dbRefURU,
-                      dbRefGHA, flags[25], flags[8], flags[31], flags[17])
+                  groupStage(context, "Group H", dbRefPOR, dbRefKOR, dbRefGHA,
+                      dbRefURU, flags[25], flags[8], flags[17], flags[31])
                 ])));
   }
 }
