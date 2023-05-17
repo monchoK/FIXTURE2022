@@ -3,7 +3,8 @@
 import 'package:fixture2022/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
-Card cardff(BuildContext context, bandera, equipo, resultado, fecha, hora) {
+Card cardff(BuildContext context, bandera1, bandera2, equipoA, resultadoA,
+    equipoB, resultadoB, fecha, hora) {
   return Card(
       elevation: 10,
       borderOnForeground: true,
@@ -21,18 +22,18 @@ Card cardff(BuildContext context, bandera, equipo, resultado, fecha, hora) {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [Text(fecha), Text(hora)]),
                 Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Image.asset(bandera, height: 25, width: 20),
-                      Text(equipo),
-                      Text(resultado)
+                      Image.asset(bandera1, height: 25, width: 30),
+                      Text(equipoA),
+                      Text(resultadoA)
                     ]),
                 Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Image.asset(bandera, height: 25, width: 20),
-                      Text(equipo),
-                      Text(resultado)
+                      Image.asset(bandera2, height: 25, width: 30),
+                      Text(equipoB),
+                      Text(resultadoB)
                     ])
               ])));
 }
